@@ -13,8 +13,8 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ## 🔗 Links
 
-- **Solution URL:** [](#)
-- **Live Site URL:** [](#)
+- **Solution URL:** [https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ?tab=report](#)
+- **Live Site URL:** [https://fransantos103.github.io/frontendMentorEasy-Profile-card-component/](#)
 
 ---
 
