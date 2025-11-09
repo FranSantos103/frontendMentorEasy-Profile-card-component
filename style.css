@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: 
+    url('images/bg-pattern-top.svg'),
+    url('images/bg-pattern-bottom.svg');
+    background-position: 
+    right 50vw bottom 50vh, 
+    left 50vw top 50vh;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+    background-color: #19a1ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    width: 350px;
+    max-width: 90%;
+    background-color: white;
+    border-radius: 15px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.cardHeader{
+    position: relative;
+
+}
+.cardBg{
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px ;
+    position: relative;
+}
+
+.profileImg{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    top: 95%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.profileName{
+    margin-top: 16%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    color: #32343d;
+}
+
+.profileAge{
+    margin-left: 5px;
+    color: #686570;
+    font-weight: 400;
+}
+
+.profileLocation{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 400;
+    color: #686570;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #c9c8ca;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.statItem{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.statNumber{
+    font-size: 1.2rem;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    color: #32343d;
+}
+
+.statLabel{
+    font-size: 0.7rem;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 400;
+    color: #686570;
+}
